@@ -11,11 +11,13 @@ char ch = 'a';
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 if (ch == 'q' || ch == 'e')
-conti{
-                        putchar(ch);
-                }
-        }
-        putchar('\n');
-        return (0);
+continue;
+else
+{
+putchar(ch);
+{
+}
+putchar('\n');
+return (0);
 }
 
